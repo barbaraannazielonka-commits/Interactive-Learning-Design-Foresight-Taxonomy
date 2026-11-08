@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', system-ui, -apple-system, sans-serif;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  transition: font-size 0.2s ease;
+}
+
+html.font-size-large {
+  font-size: 114%;
+}
+
+html.font-size-xl {
+  font-size: 128%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "EduTrends - Interactive Learning Design Landscape",
+  "description": "An interactive pedagogical map of educational trends, categorized by learning science, cognitive architecture, and emerging educational paradigms.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
